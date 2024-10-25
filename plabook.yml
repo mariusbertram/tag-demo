@@ -1,6 +1,6 @@
 
 ---
-- name: PLAY - RECONCILE OCP BUILDING BLOCKS
+- name: PLAY
   tasks:
     - name: Include Role
       include_role:
