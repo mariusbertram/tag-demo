@@ -1,0 +1,8 @@
+---
+- name: Include second_role with specific tag
+  include_role:
+    name: second_role
+    apply:
+      tags:
+        - install
+  tags: ["always"]

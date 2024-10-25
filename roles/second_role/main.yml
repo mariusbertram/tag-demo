@@ -1,0 +1,10 @@
+- name: Include prune.yml
+  import_tasks: prune.yml
+  tags:
+    - never
+    - prune
+
+- name: Include install.yml
+  import_tasks: install.yml
+  tags:
+    - install

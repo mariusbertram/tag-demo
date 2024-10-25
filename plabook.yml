@@ -1,0 +1,7 @@
+
+---
+- name: PLAY - RECONCILE OCP BUILDING BLOCKS
+  tasks:
+    - name: Include Role
+      include_role:
+        name: first_role

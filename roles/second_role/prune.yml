@@ -1,0 +1,4 @@
+---
+- name: Echo
+  debug:
+    msg: This is the prune tag
